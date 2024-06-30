@@ -157,7 +157,9 @@
 }
 
 .slider-block__img{
-    width: 1000px;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
     margin: 0 auto;
 }
 
@@ -266,13 +268,13 @@
 
 @media (max-width: 1300px) {
     .header__content{
-        /* background-image: none; */
+      
     }
 }
 
 @media (max-width: 1000px) {
     .header{
-        /* background-color: #599dd8; */
+        
     }
 
     .about{
@@ -359,6 +361,14 @@
 
     .header__top-inner.header__top-inner--active rect {
         fill: #ffffff;
+    }
+
+    .slider-block{
+        padding: 50px 0;
+    }
+
+    .slider-title{
+        margin-bottom: 30px;
     }
 }
 
